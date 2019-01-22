@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/mobile_navigation" app:startDestination="@id/locationsFragment">
+
+    <fragment android:id="@+id/locationsFragment" android:name="com.henrik.stayawake.ui.locations.LocationsFragment"
+              android:label="Locations" tools:layout="@layout/locations_fragment"/>
+</navigation>
